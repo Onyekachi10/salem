@@ -69,7 +69,8 @@ const Grid = () => {
     <div className="grid md:grid-cols-4 grid-cols-2 gap-8 px-6 py-4">
     {merch.map(({type, image, title, content})=>(
         <div key={type}>
-            <div className=" py-4 px-2 border focus:outline-none hover:shadow-md cursor-pointer rounded-lg ">
+            <div className=" py-4 px-2 border focus:outline-none bg-white text-black
+             hover:shadow-md cursor-pointer rounded-lg ">
             <img src={image} className=" object-contain h-fit rounded-md"/>
             <p className="font-semibold capitalize md:text-xl pt-3">{title}</p>
             <span>{content}</span>
