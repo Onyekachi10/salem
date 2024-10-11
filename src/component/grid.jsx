@@ -8,56 +8,56 @@ const Grid = () => {
     const merch = [
         { 
         type: "kit_1",
-         image: "http://127.0.0.1:5500/src/images/IMG-20241007-WA0008.jpg",
+         image: "https://photo-gold.vercel.app/images/IMG-20241007-WA0007.jpg",
          title: "Vol.3 corey",
          content: "quality Merch"
         },
      
         {
          type: "kit_2",
-         image: "http://127.0.0.1:5500/src/images/salem2.jpg",
+         image: "https://photo-gold.vercel.app/images/IMG-20241007-WA0008.jpg",
          title: "Crime scene limited edition",
          content: "quality Merch"
         },
      
         {
          type: "kit_3",
-         image: "http://127.0.0.1:5500/src/images/salem.jpg",
+         image: "https://photo-gold.vercel.app/images/IMG-20241007-WA0010.jpg",
          title: "Crime scene mask vol.2",
          content: "quality Merch"
         },
      
         {
          type: "kit_4",
-         image: "http://127.0.0.1:5500/src/images/salem4.jpg",
+         image: "https://photo-gold.vercel.app/images/IMG-20241007-WA0011.jpg",
          title: "Igala Masqurade",
          content: "quality Merch"
         },
      
         {
          type: "kit_5",
-         image: "http://127.0.0.1:5500/src/images/salem1.jpg",
+         image: "https://photo-gold.vercel.app/images/salem4.jpg",
          title: "Edo shrine mask",
          content: "quality Merch"
         },
      
         {
          type: "kit_6",
-         image: "http://127.0.0.1:5500/src/images/IMG-20241007-WA0010.jpg",
+         image: "https://photo-gold.vercel.app/images/salem3.jpg",
          title: "Osun Deity mask",
          content: "quality Merch"
         },
      
         {
          type: "kit_7",
-         image: "http://127.0.0.1:5500/src/images/IMG-20241007-WA0007.jpg",
+         image: "https://photo-gold.vercel.app/images/salem2.jpg",
          title: "Holloween Joker Mask",
          content: "quality Merch"
         },
      
         {
          type: "kit_8",
-         image: "http://127.0.0.1:5500/src/images/IMG-20241007-WA0011.jpg",
+         image: "https://photo-gold.vercel.app/images/salem1.jpg",
          title: "Half burnt clown",
          content: "quality Merch"
         }
