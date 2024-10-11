@@ -73,7 +73,7 @@ const Grid = () => {
              hover:shadow-md cursor-pointer rounded-lg ">
             <img src={image} className=" object-contain h-fit rounded-md"/>
             <p className="font-semibold capitalize md:text-xl pt-3">{title}</p>
-            <span>{content}</span>
+            <span className="font-medium capitalize text-lg">{content}</span>
             </div>
          
         </div>     
