@@ -66,10 +66,10 @@ const Grid = () => {
     return (
         <div className="pt-16 font-customFont">
     <h1 className="text-center font-bold md:text-5xl text-3xl uppercase pb-3 ">Dark Art</h1>
-    <div className="grid md:grid-cols-4 grid-cols-2 gap-8 px-6 py-4">
+    <div className="grid md:grid-cols-4 grid-cols-1 gap-8 px-6 py-4">
     {merch.map(({type, image, title, content})=>(
         <div key={type}>
-            <div className=" py-4 px-2 border focus:outline-none bg-white text-black
+            <div className=" py-4 px-2 border focus:outline-none bg-gray-400 text-black
              hover:shadow-md cursor-pointer rounded-lg ">
             <img src={image} className=" object-contain h-fit rounded-md"/>
             <p className="font-semibold capitalize md:text-xl pt-3">{title}</p>
